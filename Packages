@@ -1,0 +1,3239 @@
+Package: com.yourepo.tqm-mos.erasermos
+Name: Eraser Mos
+Version: 0.9.43
+Architecture: iphoneos-arm
+Description: Một tweaks để xoá cydia được DevMos fix lại cho tất cả các dòng từ ios 7-10.x.x
+Author: DevMos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.1), firmware (<= 10.3.3), mobilesubstrate
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Maintainer: QuangMinhOS <quangminh388373@gmail.com>
+Filename: ./debs/erasermos.deb
+Size: 531062
+MD5sum: e258355b06de7a95ded502f9605647c8
+
+Package: com.yourepo.tqm-minh.biutngstt3
+Name: Biểu tượng stt3
+Version: 2.5.1
+Architecture: iphoneos-arm
+Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Pre-Depends: com.yourepo.tqm-minh.opennotifierblack, com.yourepo.tqm-minh.libmoorecon
+Depends: firmware (>=10.0), mobilesubstrate, preferenceloader, applist
+Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/biutngstt3.deb
+Size: 2160586
+MD5sum: afb6cc56ca234099882746fa707f073a
+
+Package: com.yourepo.tqm-minh.chatfix
+Name: ChatFix
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Jailbreaker!!!!!!!!!!!!!!! ngăn không cho phát hiện cài tweak từ nguồn không chính chủ.
+Author: Mos <anhminh311105@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Tqm-minh <anhminh311105@gmail.com>
+Filename: ./debs/chatfix.deb
+Size: 4038
+MD5sum: 1c9460124219beaa58617dee7d42cd02
+
+Package: com.yourepo.tqm-minh.chatxi
+Name: ChatXI
+Version: 1.0
+Architecture: iphoneos-arm
+Description: mFloating chat heads for SMS, WhatsApp, and Facebook Messenger!
+Author: Mos <anhminh311105@gmail.com>
+Section: Tweaks
+Pre-Depends: com.yourepo.tqm-minh.chatfix
+Depends: firmware (>= 5.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Maintainer: Tqm-minh <anhminh311105@gmail.com>
+Filename: ./debs/chatxi.deb
+Size: 3086756
+MD5sum: 0571c6ee45538c7bb12488315be19806
+
+Package: com.yourepo.tqm-minh.libmoorecon
+Name: libmoorecon
+Version: 2.0
+Architecture: iphoneos-arm
+Description: gói phụ trợ đi kèm opennotifi 10
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>=9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/libmoorecon.deb
+Size: 43258
+MD5sum: e8af1e26d19f28ca41d1202dd9442a4b
+
+Package: com.yourepo.tqm-minh.opennotifierblack
+Name: Opennotifier Black
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bộ Icon openNotifier đen trắng có số icon hình vuông
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/opennotifierblack.deb
+Size: 832516
+MD5sum: ba7b059fadde8a01b24c5c89f671e26d
+
+Package: com.yourepo.tqm-mos.maize
+Name: Maize
+Version: 2.2
+Architecture: iphoneos-arm
+Description: Mang ControlCenter của IOS11 đến với IOS10. Fix cho IOS10.3.x bởi Quang Minh
+Author: Mos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch, firmware (<= 11.0)
+Conflicts: org.thebigboss.vigor, com.yourepo.kiiimo.flipcontrolcenter, com.rpetrich.flipcontrolcenter, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
+Maintainer: QuangMinhOs <quangminh388373@gmail.com>
+Filename: ./debs/maize.deb
+Size: 968990
+MD5sum: 6139b7261ee16263b7347305573a17f1
+
+Package: com.yourepo.tqm-minh.networklist
+Name: NetworkList
+Version: 0.4.1
+Architecture: iphoneos-arm
+Description: view saved WiFi passwords in Settings hiện thị pass wifi đã kết nối
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/networklist.deb
+Size: 31552
+MD5sum: 8ba150039fa68ef6aab94a5a6ab540a7
+
+Package: com.yourepo.cydiamos.ntspeed
+Name: NtSpeed
+Version: 1.0
+Architecture: iphoneos-arm
+Description: See Active Traffic Network Speed được quang minh fix lại hiển thị wifi với 3,4g khi khết nối
+Author: Quang Minh <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 6.0), mobilesubstrate, firmware (<= 11.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/ntspeed.deb
+Size: 24476
+MD5sum: acde715b352b50713d3b726c92d5782c
+
+Package: com.yourepo.devmos.mimport
+Name: Musicport
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Media Importer Directly From Music App
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/mimport.deb
+Size: 402434
+MD5sum: f9b8a2b8c36b28e71fcafadd96112d35
+
+Package: com.yourepo.devmos.alkalinemos
+Name: Alkaline Mos
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Thay đổi giao diện pin mặc định trên stt3 tương thích ios7-11
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/alkalinemos_1.3_iphoneos-arm.deb
+Size: 1334164
+MD5sum: 69acb0e2cb6fac6d3796585d9d2ea5f3
+
+Package: com.yourepo.devmos.cask
+Name: Cask
+Version: 0.2
+Architecture: iphoneos-arm
+Description: Animated table scrolling inspired by Google Plus
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/cask_0.2_iphoneos-arm.ded.deb
+Size: 11016
+MD5sum: d4e558140095bb0ed023020dfe5237fb
+
+Package: com.yourepo.devmos.ghimvideos
+Name: Ghim Videos
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Description: Một tinh chỉnh nhỏ giúp bạn ghim được videos trong safari mọi nơi bạn muốn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.ghimvideos.deb
+Size: 3778
+MD5sum: 2855cfc78eee26ed969d2d748b41c827
+
+Package: com.yourepo.devmos.icongif
+Name: Icon gif
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Icon động trên IOS 8/9/10/11 by soái ca (Quang Minh)
+Author: Quang Minh <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Icon: file:///Library/PreferenceBundles/FingalPrefs.bundle/icon_big.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.icongif.deb
+Size: 7777238
+MD5sum: 47ac614d77e749e8ec33ff56fcd94bf6
+
+Package: com.yourepo.devmos.mobius
+Name: mobius
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Home vô tận màn hình chính lướt vô tận
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.mobius.deb
+Size: 74732
+MD5sum: ef8563e0ea46f7d7ae783af283a9bbf6
+
+Package: com.yourepo.devmos.nopagedots7
+Name: NoPageDots7
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Remove page indicator dots from iOS 7.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.nopagedots7.deb
+Size: 3052
+MD5sum: a8c793d98c43263e710447fcbfe7531f
+
+Package: com.yourepo.devmos.portraitlightning
+Name: Portrait Lightning
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Thêm tính năng chụp ảnh như iphone8 plus xuống 7 plus chụp ảnh đen trắng
+Author: Quang Minh <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.portraitlightning_1.0_iphoneos-arm.deb
+Size: 2898
+MD5sum: 1d934a0d4450791ab4fa6f197a6141d2
+
+Package: com.yourepo.tqm-minh.giaodinmos
+Name: Giao Diện Mos
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Snowboard theming engine tweaks enable themes mới cho ios
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, jp.ashikase.techsupport, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Icon: file:///Library/PreferenceBundles/SnowboardPrefs.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.giaodinmos.deb
+Size: 2203940
+MD5sum: 7d10c631c5efe4449c409b9adbe04c5c
+
+Package: com.yourepo.tqm-minh.iconon-off
+Name: Icon on-off
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Add some style to your sưitches icon on off ban đêm và ban ngày
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/DayNightSwitch.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.iconon-off.deb
+Size: 56842
+MD5sum: 19057d4548a97c22190263f92267d938
+
+Package: com.yourepo.tqm-minh.lightson
+Name: LightsOn
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Enable Portrait Lighting on iPhone 7+ (10.0 - 11.4b3)
+Author: Mos <anhminh311105@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Maintainer: Tqm-minh <anhminh311105@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.lightson.deb
+Size: 3990
+MD5sum: 440f844b01d43e4656629ce2611cc32c
+
+Package: com.yourepo.tqm-minh.pullover10
+Name: PullOver10
+Version: 2.0
+Architecture: iphoneos-arm
+Description: A better way to multitask! Đa nhiệm rạng thông báo
+Author: Mos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader, libactivator, applist
+Conflicts: com.reddoorendeavors.pullover10
+Icon: file:///Library/PreferenceBundles/PullOverPreferences.bundle/icon-small@2x.png
+Maintainer: Tqm_Minh <quangminh388373@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.pullover10.deb
+Size: 2845220
+MD5sum: d83ddfc60aebdccfab48e739618ada56
+
+Package: com.yourepo.tqm-minh.spxpstt3
+Name: Sắp xếp stt3
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Arrange statusbar icons.sắp sếp tuỳ chỉnh icon statusbar
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>=9.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.moveable, com.repo.xarold.com.moveable
+Icon: file:///Library/PreferenceBundles/Moveable9.bundle/Moveable9.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.spxpstt3.deb
+Size: 279098
+MD5sum: 50d078ff09a9704c9822f99771f888e2
+
+Package: com.yourepo.tqm-minh.themesprodark
+Name: Themes ProDark
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bring the experience of iphone to your iDevice.iPhone M_Os to your iDevice.
+Author: Mos <anhminh311105@gmail.com>
+Section: Themes
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.themesprodark.deb
+Size: 1813980
+MD5sum: 581938dd62e5b692ed0ab7c5b46ac0fd
+
+Package: com.yourepo.tqm-minh.thngbo
+Name: Thông báo
+Version: 1.0-6
+Architecture: iphoneos-arm
+Description: Jailbreaker!!!!!!!!!!!!!!! Customizable S8 Style Edge Notifications on iOS (iOS 9 — 10)
+Author: Mos <quangminh388473@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader, org.thebigboss.libcolorpicker
+Maintainer: Tqm-Minh <quangminh388473@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.thngbo.deb
+Size: 154538
+MD5sum: f11774dc723f01fb6d1105d975c0f92e
+
+Package: com.yourepo.tqm-minh.youtubed
+Name: YouTubed
+Version: 1.7.2-1
+Architecture: iphoneos-arm
+Description: Enable YouTube app backgrounding ẩn youtube vẫn nge đk âm thanh giúp ios đơ tốn pin hơn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.youtubed.deb
+Size: 24706
+MD5sum: d445ee4b4d7e56b36dbf3a46e833e0ec
+
+Package: com.yourepo.cydiamos.iphonexls
+Name: Iphone X LS
+Version: 1.0
+Architecture: iphoneos-arm
+Description: iPhone X LS for iOS 10 giả lập màn hình khoá iphone X lên ios đời thấp
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/iphonexls_1.0_iphoneos-arm.deb
+Size: 15456
+MD5sum: 36336ff1645d863f08b398a71f5b28e6
+
+Package: com.yourepo.devmos.nomoreseparators
+Name: NoMoreSeparators
+Version: 1.8
+Architecture: iphoneos-arm
+Description: Removes the ugly tableView ndxjjsksksjxnsnsnxnsnn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/nomoreseparators_1.8_iphoneos-arm.deb
+Size: 11166
+MD5sum: 9b237165e8419d356d12a36c94a14e87
+
+Package: com.yourepo.tqm-minh.anhim
+Name: Đa nhiệm
+Version: 1.6.2
+Architecture: iphoneos-arm
+Description: Enable SplitView and SlideOver Features!
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, applist
+Icon: file:///Library/PreferenceBundles/Gorgone.bundle/Gorgone@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.anhim.deb
+Size: 46694
+MD5sum: 6b336e93fa9bd79f4e291cc66b7e8822
+
+Package: com.yourepo.tqm-minh.ly
+Name: Độ lẩy
+Version: 1.4.5
+Architecture: iphoneos-arm
+Description: Hook's Law for iOS 9 tạo hiệu ứng cho toàn system ios đẹp hơn với hoạt ảnh triwwuf xâu
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 8.4), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Icon: file:///Library/PreferenceBundles/Hortus.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.ly.deb
+Size: 37872
+MD5sum: 0f69e746ab7cb6f1ec6cf72a61b1f207
+
+Package: com.yourepo.tqm-minh.blackicon
+Name: Black icon
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bring the experience of iphone to your iDevice.iPhone M_Os to your iDevice.
+Author: Mos <anhminh311105@gmail.com>
+Section: Themes
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.blackicon.deb
+Size: 2259678
+MD5sum: 5938a2aeb1a032f2bb1cd5e9e0eb895a
+
+Author: Mos
+Maintainer: Quang Minh
+Name: AdBlock for YouTube
+Package: com.yourepo.devmos.adblockforyoutube
+Depends: firmware (>= 8.0), mobilesubstrate
+Section: Tweaks
+Installed-Size: 241
+Version: 1.0.7
+Architecture: iphoneos-arm
+Description: Block YouTube Ads and Video Ads
+dev: mos
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Filename: ./debs/com.yourepo.devmos.adblockforyoutube_1.0.7_iphoneos-arm.deb
+Size: 46300
+MD5sum: e48b5ba9a5a03e15508c2e272b362413
+
+Author: Mos
+Maintainer: Quang Minh
+Name: AFVideo
+Package: com.yourepo.devmos.afvideo
+Depends: mobilesubstrate, firmware (>= 5.0), gsc.auto-focus-camera
+Section: Tweaks
+Installed-Size: 128
+Version: 1.0-8
+Architecture: iphoneos-arm
+Description: Allow autofocus while recording video.
+dev: mos
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9
+Filename: ./debs/com.yourepo.devmos.afvideo_1.0-8_iphoneos-arm.deb
+Size: 6016
+MD5sum: 326e354f4bbb1f920604a22ce2bd366b
+
+Package: com.yourepo.devmos.bloard
+Name: Bloard
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Version: 0.1.2-1
+Architecture: iphoneos-arm
+Description: Universal dark keyboard for iOS 7/8
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8
+Installed-Size: 313
+dev: mos
+Icon: file:///Library/PreferenceBundles/BloardPreferences.bundle/bloard@2x.png
+Filename: ./debs/com.yourepo.devmos.bloard_0.1.2-1_iphoneos-arm.deb
+Size: 82192
+MD5sum: a35a715ff86d8cd3dd5876b2fc1bf57f
+
+Name: DockXI
+Package: com.yourepo.devmos.dockxi
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Version: 1.1.1
+Architecture: iphoneos-arm
+Description: iOS 11 Dock Style For iOS Devices.
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Installed-Size: 245
+dev: mos
+Filename: ./debs/com.yourepo.devmos.dockxi_1.1.1_iphoneos-arm.deb
+Size: 26426
+MD5sum: c2200a18a3cfd6a0af737db824dd4208
+
+Package: com.yourepo.devmos.fbadblock
+Name: FacebookAdBlocker
+Version: 1.2
+Architecture: iphoneos-arm
+Description: The BEST ad-blocker for Facebook.
+Author: Mos
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh
+Filename: ./debs/com.yourepo.devmos.fbadblock_1.2_iphoneos-arm.deb
+Size: 6648
+MD5sum: e339fa3680ae3e77f8e09d16e3140a05
+
+Package: com.yourepo.devmos.photodata
+Name: PhotoData
+Depends: firmware (>=9.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: View Photo Exif data and Video data in the Photos App. Open GPS location in Maps.
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Version: 1.0.0~beta19
+Installed-Size: 515
+Filename: ./debs/com.yourepo.devmos.photodata_1.0.0~beta19_iphoneos-arm.deb
+Size: 143734
+MD5sum: 4aaea7eaecf9407003341176977a7ced
+
+Package: com.yourepo.devmos.romanlockscreentime
+Name: RomanLockscreenTime
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Roman numerals as Lockscreen time.
+Author: Mos
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 10.0)
+Maintainer: Quang Minh
+Filename: ./debs/com.yourepo.devmos.romanlockscreentime_1.0.2_iphoneos-arm.deb
+Size: 6752
+MD5sum: aa0968b34ddcee6d0334fb752be59146
+
+Package: com.yourepo.devmos.smoothtable
+Name: SmoothTable
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Description: Make TableViews great and smooth!
+Author: Mos
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Maintainer: Quang Minh
+Filename: ./debs/com.yourepo.devmos.smoothtable_1.0.2-1_iphoneos-arm.deb
+Size: 13940
+MD5sum: 9d71298f1ad0c3bbc86cdc16bfb6fbd3
+
+Package: com.yourepo.qminh.batteryhealth
+Name: Battery Health
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unlock Apple's internal battery data & stats on iOS 9.x - 11.1.2.
+Author: Mos
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate
+Conflicts: org.thebigboss.detailedbatteryusage
+Icon: file:///Library/Application Support/DPUTweakResources/kTCWIcon.png
+Maintainer: Quang Minh
+Filename: ./debs/com.yourepo.qminh.batteryhealth_1.0_iphoneos-arm.deb
+Size: 546838
+MD5sum: bf64ec28266ff665fd4cea3c37176bd6
+
+Package:  com.yourepo.qminh.chargingpekxi
+Name: ChargingPek XI
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: The iOS 11 app hiện của sổ thông báo nhỏ khi sạc pin trên ios 11
+Maintainer: Quang Minh
+Author: Quang Minh
+Section: Tweaks
+Version: 1.0
+Installed-Size: 252
+Filename: ./debs/com.yourepo.qminh.chargingpekxi_1.0_iphoneos-arm.deb
+Size: 30490
+MD5sum: 0dce5d1fa68a439dd04106182a54c90a
+
+Author: Mos
+Maintainer: Quang Minh
+Name: DismissProgress
+Package: com.yourepo.qminh.dismissprogress
+Depends: mobilesubstrate, firmware (>= 3.0), cydia (>= 1.1.19)
+Section: Tweaks
+Installed-Size: 150
+Version: 1.0.3
+Architecture: iphoneos-arm
+Description: Dismiss Cydia'a installation window without closing cydia.
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Filename: ./debs/com.yourepo.qminh.dismissprogress_1.0.3_iphoneos-arm.deb
+Size: 9224
+MD5sum: 35768a6f349e9aa9b6f5ed01e0f3bc02
+
+Package: com.yourepo.qminh.netkilluibeta
+Version: 0.3
+Section: System
+Maintainer: Quang Minh
+Description: tweaks giúp bạn kích những người dùng khỏi wifi nhà bạn
+Depends: mobilesubstrate, com.yourepo.qminh.arpscan1, com.yourepo.qminh.dsniffsuite1, network-cmds, com.yourepo.qminh.libpcap, gawk
+Conflicts: com.yourepo.kiiimo.arp-spoof
+Architecture: iphoneos-arm
+Name: netKillUIbeta
+Author: Mos
+Filename: ./debs/com.yourepo.qminh.netkilluibeta_0.3_iphoneos-arm.deb
+Size: 527520
+MD5sum: 81e7ad982d6ad68d69c6fe3bdfd0aa98
+
+Package: com.yourepo.qminh.libpcap
+Name: Libpcap
+Depends: mobilesubstrate 
+Architecture: iphoneos-arm
+Description: Gói phụ trợ cho app netkill kích wifi
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Version: 1.4.0
+Filename: ./debs/com.yourepo.qminh.libpcap_1.4.0_iphoneos-arm.deb
+Size: 286580
+MD5sum: adc2eafd6845bc51d263942701c97b1f
+
+Package: com.yourepo.qminh.arpscan1
+Name: Arp Scan1
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Gói phụ trợ cho app netkill kích wifi
+Author: Mos <anhminh311105@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, org.thebigboss.libnet, com.yourepo.qminh.libpcap
+Conflicts: com.hackyouriphone.libpcap
+Maintainer: Quang Minh <anhminh311105@gmail.com>
+Filename: ./debs/com.yourepo.qminh.arpscan1_1.1_iphoneos-arm.deb
+Size: 459494
+MD5sum: edc22c1db593693f05a4329a8983145f
+
+Package: com.yourepo.qminh.dsniffsuite1
+Name: Dsniff Suite1
+Version: 2.4
+Architecture: iphoneos-arm
+Description: Gói phụ trợ cho app netkill kích wifi
+Author: Mos <anhminh311105@gmail.com>
+Section: Utilities
+Depends: mobilesubstrate, com.yourepo.qminh.netkilluibeta
+Conflicts: org.mulliner.dsniff
+Maintainer: Quang Minh <anhminh311105@gmail.com>
+Filename: ./debs/com.yourepo.qminh.dsniffsuite1_2.4_iphoneos-arm.deb
+Size: 2101490
+MD5sum: 3e421e556b6cea38737c151fe7da3f77
+
+Package: com.yourepo.qminh.netkillui103x
+Name: NetKillUI 10.3.x
+Version: 1.2
+Architecture: iphoneos-arm
+Description: NetKillUI một twekas khá hay giúp bạn kích những người khác khỏi wifi mà mình không muốn họ dùng
+Author: Mos <anhminhclub@gmail.com>
+Section: System
+Depends: com.yourepo.qminh.arpscan, com.yourepo.qminh.dsniffsuite, network-cmds, libpcap, gawk
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.qminh.netkillui103x_1.2_iphoneos-arm.deb
+Size: 527492
+MD5sum: 7a0b7dd89f759b914515ed8ec5796c1f
+
+Package: com.yourepo.qminh.dsniffsuite
+Version: 2.5.1
+Architecture: iphoneos-arm
+Maintainer: Quang Minh
+Section: Development
+Description: DsniffSuite gói phụ trợ dùng cho netkill
+Conflicts: org.mulliner.dsniff
+Author: Mos
+Name: DsniffSuite
+Filename: ./debs/com.yourepo.qminh.dsniffsuite_2.5.1_iphoneos-arm.deb
+Size: 2102470
+MD5sum: 80e3347028f5c7885ed9dce081f502f6
+
+Package: com.yourepo.qminh.arpscan
+Version: 1.8.1-1
+Architecture: iphoneos-arm
+Maintainer: Quang Minh
+Section: Utilities
+Description: ArpScan gói phụ trợ dùng cho netkill
+Depends: libpcap
+Author: Mos
+Name: ArpScan
+Filename: ./debs/com.yourepo.qminh.arpscan_1.8.1-1_iphoneos-arm.deb
+Size: 283324
+MD5sum: 5f7e7693532cc2c5ac7c90aaaa4cca00
+
+Package: com.yourepo.qminh.lockxi
+Depends: mobilesubstrate, firmware (>= 10.0), com.laughingquoll.corexi (>= 1.2)
+Name: LockXI
+Version: 1.3-1
+Architecture: iphoneos-arm
+Description: iOS 11 Style lockscreen media player and passcode view
+Installed-Size: 276
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios10
+Icon: file:///Library/PreferenceBundles/CoreXI.bundle/icon@2x.png
+Filename: ./debs/com.yourepo.qminh.lockxi_1.3-1_iphoneos-arm.deb
+Size: 72238
+MD5sum: cae1122b656e5a829966901c474a9564
+
+Package: com.yourepo.qminh.multiiconmoverplus
+Name: MultiIconMover+
+Version: 2.11.0
+Architecture: iphoneos-arm
+Description: Enhanced version of MultiIconMover.
+Author: Mos
+Section: Tweaks
+Maintainer: Quang Minh
+Depends: firmware (>= 4.2), firmware (<< 11.0), mobilesubstrate, preferenceloader
+Conflicts: jp.ashikase.multiiconmover, jp.ashikase.folderenhancer (<< 1.5.0), com.repo.xarold.com.folderenhancer (<< 1.5.0)
+Icon: file:///Library/PreferenceBundles/MultiIconMoverPlus.bundle/icon@2x.png
+Filename: ./debs/com.yourepo.qminh.multiiconmoverplus_2.11.0_iphoneos-arm.deb
+Size: 58416
+MD5sum: 0ad7118b4818747e2294340c8d10622b
+
+Package: com.yourepo.qminh.vivavideovip
+Name: Vivavideo VIP
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Gói phụ trợ cho app viva video vip cài viva video rồi cài tweak này sẽ đk gói vip
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Version: 0.0.1
+Installed-Size: 272
+Filename: ./debs/com.yourepo.qminh.vivavideovip_0.0.1_iphoneos-arm.deb
+Size: 79118
+MD5sum: 5db4f2818334b7fec32a29360b6638a8
+
+Package: com.yourepo.qminh.noheaders
+Name: NoHeaders
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Remove headers from widgets and banners.
+Maintainer: Quang Minh
+Author: Mos
+Section: Tweaks
+Version: 0.0.1
+Installed-Size: 120
+Filename: ./debs/com.yourepo.qminh.noheaders_0.0.1_iphoneos-arm.deb
+Size: 3904
+MD5sum: 63f80a1df6ac4d9463a898cfe2f21313
+
+Package: com.yourepo.devmos.appsyncunified
+Name: AppSync Unified
+Version: 31.1
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 11.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.repo.xarold.com.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.appsyncunified_31.1_iphoneos-arm.deb
+Size: 38146
+MD5sum: 858b682cedb25ddae95d0fb3e642a2c8
+
+Package: com.yourepo.devmos.badgomizer
+Name: Badgomizer
+Version: 1.6.8
+Architecture: iphoneos-arm
+Description: Fully customize app badges, close boxes and new dots.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Icon: file:///Library/PreferenceBundles/badgomizerprefs.bundle/badgomizer@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.badgomizer_1.6.8_iphoneos-arm.deb
+Size: 338618
+MD5sum: 789128131537da3ba8df0507a6392b77
+
+Package: com.yourepo.devmos.betterfivecolumnhomescreen
+Name: betterFiveColumnHomescreen
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Five Column Homescreen with proper spacing!
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), com.chpwn.iconsupport
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.betterfivecolumnhomescreen_1.0.1_iphoneos-arm.deb
+Size: 11486
+MD5sum: 3cb985fcde258768339c5ae8240a0427
+
+Package: com.yourepo.devmos.betterfiveicondock
+Name: betterFiveIconDock
+Version: 1.0.4
+Architecture: iphoneos-arm
+Description: Five Icon Dock with proper spacing!
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), com.chpwn.iconsupport
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.betterfiveicondock_1.0.4_iphoneos-arm.deb
+Size: 10550
+MD5sum: 379edf4c72fad0fe4ccc893644539700
+
+Package: com.yourepo.devmos.bouncenotify8
+Name: BounceNotify8
+Version: 2.0.1-1
+Architecture: iphoneos-arm
+Description: Bounce dock icons! Tạo hiệu ứng nhảy cao icon dưới dock khi có thông báo
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.nin9tyfour.bouncenotify
+Icon: file:///Library/PreferenceBundles/BounceNotify8Settings.bundle/BounceNotify@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.bouncenotify8_2.0.1-1_iphoneos-arm.deb
+Size: 37470
+MD5sum: 9dbd24f15fbfeadc0ae6c969b22ac01c
+
+Package: com.yourepo.devmos.bytafont3
+Name: BytaFont 3
+Version: 1.1
+Architecture: iphoneos-arm
+Description: BytaFont iOS 10.3.x tweak thay đổi font hệ thống cho ios đã jb 32-64it
+Author: Mos <anhminhclub@gmail.com>
+Section: System
+Pre-Depends: firmware (>= 10.3), firmware (<= 10.3.3)
+Depends: mobilesubstrate, com.yourepo.devmos.bytafonttweakmode
+Icon: file:///Applications/BytaFont3.app/AppIcon60x60@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.bytafont3_1.1_iphoneos-arm.deb
+Size: 2005382
+MD5sum: 40d787f613b092f6cab7bc2509dbf4b4
+
+Package: com.yourepo.devmos.bytafonttweakmode
+Name: BytaFont Tweak Mode
+Version: 1.1
+Architecture: iphoneos-arm
+Description: BytaFontTM iOS 10.3.x  gói phụ trợ cho bytafont 3
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.bytafonttweakmode_1.1_iphoneos-arm.deb
+Size: 27576
+MD5sum: 9d57ccea18d6964007b0a56bb0eee409
+
+Package: com.yourepo.devmos.facebookdarkmode
+Name: FacebookDarkMode
+Version: 2.0.1
+Architecture: iphoneos-arm
+Description: Jailbreaker!!!!!!!!!!!!!!! Dark mode for Facebook
+Author: FoxfortMobile <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.facebookdarkmode_2.0.1_iphoneos-arm.deb
+Size: 472946
+MD5sum: 078b79f665c6a13bf48e210763937288
+
+Package: com.yourepo.devmos.noctisios10
+Name: Noctis (iOS 10)
+Version: 1.9.8
+Architecture: iphoneos-arm
+Description: Dark Mode for iOS 10jcxjxjxjssjjxdjxjdjjxjxjxjxjxjxj
+Author: LaughingQuoll <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker
+Conflicts: com.laughingquoll.noctis9, com.repo.xarold.com.noctis9
+Icon: file:///Library/PreferenceBundles/NoctisPrefs.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.noctisios10_1.9.8_iphoneos-arm.deb
+Size: 352460
+MD5sum: 4b808d43a85631fc32ab77e29ee574a9
+
+Package: com.yourepo.devmos.nofolderbackground
+Name: NoFolderBackground
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Removes folder backgrounds on iOS 10.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.nofolderbackground_1.0_iphoneos-arm.deb
+Size: 4104
+MD5sum: 180457c703b4a49225e8d98e1e1cee7d
+
+Package: com.yourepo.devmos.ttmcamera
+Name: Tắt âm camera
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Fix Shutter Sound on iPhone J/A and KH/A tweak tắt âm camera trên máy nhật và hàn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Mos <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.ttmcamera_2.0_iphoneos-arm.deb
+Size: 1370
+MD5sum: 29b837c711e215233ae5e51f01022eae
+
+Package: com.yourepo.devmos.weatherstatusbar10
+Name: WeatherStatusBar10
+Version: 2.0.0
+Architecture: iphoneos-arm
+Description: Display current weather temperature in status bar!
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, org.thebigboss.libstatus9
+Conflicts: com.yourepo.devmos.libmoorecon
+Icon: file:///Library/PreferenceBundles/WeatherStatusBar10Preferences.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.weatherstatusbar10_2.0.0_iphoneos-arm.deb
+Size: 124862
+MD5sum: 3ff252c85a6a0cd89e6a7d68db2de364
+
+Package: com.yourepo.devmos.youtubenoadshq3g
+Name: YouTube no Ads/HQ3G
+Version: 1.1-4
+Architecture: iphoneos-arm
+Description: Play HQ videos over 3G, and disable ads
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.youtubenoadshq3g_1.1-4_iphoneos-arm.deb
+Size: 12202
+MD5sum: d0dda92febf2c355807af1059ea13236
+
+Package: com.yourepo.devmos.cydown
+Name: CyDown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.cydown_6.9.7_iphoneos-arm.deb
+Size: 1584754
+MD5sum: 2508bdda4fa13590935e1d5f687388bd
+
+Package: com.tqm-mos.bong
+Name: Bống (iOS10-11)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Font được mang phong cách kute dễ thương phì hợp với các bạn nữ
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.bong_1.0_iphoneos-arm.deb
+Size: 15025384
+MD5sum: 1df8622bc881d9113be4ea6cff7ca759
+
+Package: com.tqm-mos.dax
+Name: Dax (10-11)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Font "Dax" Một bộ font khá là đẹp phù hợp với phái mạnh
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.dax_1.1_iphoneos-arm.deb
+Size: 16926090
+MD5sum: a8790230128883796e699043736d0702
+
+Package: com.tqm-mos.dekar
+Name: Dekar (10-11)
+Version: 1.0.3
+Architecture: iphoneos-arm
+Description: Font Dekar Được Xem Là Rất Đẹp Phù hợp với phái mạnh
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.dekar_1.0.3_iphoneos-arm.deb
+Size: 10311584
+MD5sum: d4de1d22947e30bed35c056095a6f27c
+
+Package: com.tqm-mos.edgy
+Name: Edgy (10-11)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Font "Edgy" khá là đẹp chữ nhỏ nhắn xinh xắn
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.edgy_1.0.0_iphoneos-arm.deb
+Size: 15717714
+MD5sum: de185feec090cec399804e08458e0c60
+
+Package: com.tqm-mos.futura
+Name: Futura (10-11)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Font "Futura" Nét chữ mạnh mẽ khoẻ khoẳn 
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.futura_1.0.0_iphoneos-arm.deb
+Size: 16151126
+MD5sum: c294cd88311f1720ec3840f24d3e2c50
+
+Package: com.tqm-mos.gineso
+Name: Gineso (10-11)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Font Gineso mang kiểu dáng hình học với kich thước nhỏ hẹp!
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.gineso_1.0_iphoneos-arm.deb
+Size: 12403900
+MD5sum: 3ae7c403633a02ab9c089a686bea7682
+
+Package: com.tqm-mos.kudo
+Name: Kudo (10-11)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Font "Kudo" mang nét chữ thanh mảnh
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.kudo_1.1_iphoneos-arm.deb
+Size: 20278714
+MD5sum: 28b484c185ec6db1dc21d958b8be9572
+
+Package: com.tqm-mos.lebly
+Name: Lebly (10-11)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Font lebly mang phong thái thư pháp
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.lebly_1.0.0_iphoneos-arm.deb
+Size: 13911966
+MD5sum: 3ce8f3d83ac9ff074dee66c2b7f067f5
+
+Package: com.tqm-mos.anibanner
+Name: AniBanner
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Description: cool animation for banner notifications
+Author: Mos
+Section: Tweaks
+Maintainer: QM
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker
+Icon: file:///Library/PreferenceBundles/anibannerpreferences.bundle/anibannerpreferences@2x.png
+Filename: ./debs/com.tqm-mos.anibanner_1.0.0-1_iphoneos-arm.deb
+Size: 37688
+MD5sum: 40af524b50ce4ad293ed74c1522f1d38
+
+Author: Mos
+Maintainer: QM
+Name: AppAdmin
+Package: com.tqm-mos.appad
+Depends: mobilesubstrate, firmware (>= 8.0), com.unlimapps.uasharedtools (>= 2.0r-46)
+Conflicts: it.marcocristalli.asupdatehider
+Section: Tweaks
+Installed-Size: 3622
+Version: 1.0r-61
+Architecture: iphoneos-arm
+Description: Downgrade apps to any previous version! No AppSync needed!!!
+dev: mos
+Tag: purpose::extension, role::enduser, compatible::ios8, compatible::ios9
+Filename: ./debs/com.tqm-mos.appad_1.0r-61_iphoneos-arm.deb
+Size: 1082556
+MD5sum: a6be536feecf13c62e9ec7e9a1ad0c9a
+
+Package: com.tqm-mos.appadmin
+Name: App Admin
+Version: 1.0r-101
+Architecture: iphoneos-arm
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Author: Mos
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider, com.repo.xarold.com.asupdatehider
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.appadmin_1.0r-101_iphoneos-arm.deb
+Size: 859856
+MD5sum: aaa12d34db17fe1211b26f31e79d47f8
+
+Package: com.tqm-mos.appvn
+Name: Appvn
+Version: 5.2.0
+Architecture: iphoneos-arm
+Description: Kho tải ứng dụng, nhạc chuông, hình nền, ebook lớn nhất Việt Nam cho iDevices.
+Author: Mos
+Maintainer: QM
+Section: Applications
+Depends: firmware (>= 7.0), com.tqm-mos.ringtones, com.yourepo.devmos.appsyncunified
+Filename: ./debs/com.tqm-mos.appvn_5.2.0_iphoneos-arm.deb
+Size: 34121182
+MD5sum: 209dcfe9c192816e024c442f7faadcd3
+
+Package: com.tqm-mos.barrelroll
+Name: BarrelRoll
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5001), libactivator (>= 1.8.4~beta)
+Architecture: iphoneos-arm
+Description: Do a barrel roll!
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension
+dev: mos
+Version: 0.1
+Installed-Size: 108
+Filename: ./debs/com.tqm-mos.barrelroll_0.1_iphoneos-arm.deb
+Size: 32576
+MD5sum: fd90174192e0c2a66e80794f6977cb32
+
+Package: com.tqm-mos.bioprotect
+Name: BioProtect Việt
+Version: 2.1-295
+Architecture: iphoneos-arm
+Description: Bảo mật Ứng dụng, Cài đặt ... với TouchID.
+Author: Mos
+Maintainer: Quangminh
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin, firmware (<= 11.0)
+Filename: ./debs/com.tqm-mos.bioprotect_2.1-295_iphoneos-arm.deb
+Size: 635406
+MD5sum: 77a4960d4fc322ae77f587c60a0904c9
+
+Package: com.tqm-mos.cacheclearer
+Name: CacheClearer
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001)
+Architecture: iphoneos-arm
+Description: Clear app caches from the Usage section in Settings
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension
+dev: mos
+Version: 0.1
+Installed-Size: 72
+Filename: ./debs/com.tqm-mos.cacheclearer_0.1_iphoneos-arm.deb
+Size: 8748
+MD5sum: 4e7fd3d881639cd93746e8c8873e532c
+
+Package: com.tqm-mos.cacheclearer11
+Name: CacheClearer (iOS 11)
+Version: 0.1a
+Architecture: iphoneos-arm
+Description: Clear app caches from the Usage section in Settings
+Author: mos
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001)
+Conflicts: com.rpetrich.cacheclearer, com.repo.xarold.com.cacheclearer
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.cacheclearer11_0.1a_iphoneos-arm.deb
+Size: 9292
+MD5sum: ca99b99e0fce18b229d45a8c58ea489d
+
+Package: com.tqm-mos.callbar
+Name: CallBar (iOS 10/9/8/7)
+Version: 1.3-169
+Architecture: iphoneos-arm
+Description: Don't let incoming calls 
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5100), firmware (>= 7.0), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap ( >= 1.0.4)
+Conflicts: org.thebigboss.callbar, com.repo.xarold.com.callbar
+Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.callbar_1.3-169_iphoneos-arm.deb
+Size: 1395170
+MD5sum: b2a8594c4151cfe830625395f63d7f15
+
+Package: com.tqm-mos.callbarx
+Name: CallBar X
+Version: 0.3-34k
+Architecture: iphoneos-arm
+Description: Don’t let incoming calls interrupt you!
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate, preferenceLoader
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.callbarx_0.3-34k_iphoneos-arm.deb
+Size: 185978
+MD5sum: 22ee9c7d4c993ad5173fb76379910c31
+
+Package: com.tqm-mos.ccrecorder
+Name: CCRecorder (iOS 10)
+Version: 1.0k
+Architecture: iphoneos-arm
+Description: Record Your Screen From The Control Center... Cracked
+Author: mos
+Section: Tweaks
+Maintainer: QM
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.tqm-mos.ccrecorder_1.0k_iphoneos-arm.deb
+Size: 70496
+MD5sum: 66549303c58b4199b3c128089138b7d4
+
+Package: com.tqm-mos.crack-icleaner
+Name: Crack iCleaner Pro
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Cài phiên bản chính chủ trước khi cài crack, chỉ cần cài là crack đc không cần phải làm gì thêm
+Author: Mos
+Maintainer: QuanGminh
+Section: Utilities
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.crack-icleaner_1.0_iphoneos-arm.deb
+Size: 3489804
+MD5sum: 268ff7731ba53d6f8935b95e0ec6e0eb
+
+Package: com.tqm-mos.cracktool2
+Name: CrackTool2
+Version: 2.3~beta9
+Architecture: iphoneos-arm
+Description: Crack Tweaks on 
+Author: mos
+Section: Utilities
+Maintainer: QM
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.tqm-mos.cracktool2_2.3~beta9_iphoneos-arm.deb
+Size: 430386
+MD5sum: 807e861a164f138d650a45d44d55a0e7
+
+Package: com.tqm-mos.cracktool3
+Name: CrackTool3 (iOS 11)
+Version: 3.0~beta11
+Architecture: iphoneos-arm
+Description: Crack Tweaks On 1 Touch. arm64. Any Issue Try Reinstall and/or Run CT3 In Safe Mode.
+Author: mos
+Section: Utilities
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.cracktool3_3.0~beta11_iphoneos-arm.deb
+Size: 164476
+MD5sum: 6b7580f9149aa110180ba2999b4095ad
+
+Package: com.tqm-mos.eclipse4
+Name: Eclipse 4 (iOS 10)
+Version: 4.1.3
+Architecture: iphoneos-arm
+Description: System-wide Night Mode and more for iOS 10.
+Author: mos
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, org.thebigboss.libcolorpicker
+Conflicts: org.thebigboss.eclipse, com.repo.xarold.com.eclipse, org.thebigboss.eclipse2, com.repo.xarold.com.eclipse2, org.thebigboss.eclipse3, com.repo.xarold.com.eclipse3
+Icon: file:///Library/PreferenceBundles/Eclipse_Settings.bundle/eclipse@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.eclipse4_4.1.3_iphoneos-arm.deb
+Size: 850348
+MD5sum: d97841027a2ff33698c6e2d9da563920
+
+Package: com.tqm-mos.eclipsex
+Name: Eclipse X (iOS 11)
+Version: 5.1.6
+Architecture: iphoneos-arm
+Description: Night Mode (and more!) for all your apps!
+Author: Mos
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0)
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.eclipsex_5.1.6_iphoneos-arm.deb
+Size: 656278
+MD5sum: 5ac3b70e475d705b00b881d9ccd19931
+
+Package: com.tqm-mos.edge
+Name: Edge
+Version: 1.0.12
+Architecture: iphoneos-arm
+Description: An Edge Experience For 
+Author: mos
+Section: Tweaks
+Maintainer: QM
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Icon: file:///Library/PreferenceBundles/Edge.bundle/images/Edge@2x.png
+Filename: ./debs/com.tqm-mos.edge_1.0.12_iphoneos-arm.deb
+Size: 237258
+MD5sum: 6eca62284791fa1312dc071f4fd0dbeb
+
+Package: com.tqm-mos.evanescoxi
+Name: EvanescoXI
+Version: 1.3.1
+Architecture: iphoneos-arm
+Description: Clear Your Homescreen After Inactivity
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco
+Icon: file:///Library/PreferenceLoader/Preferences/Evanesco@3x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.evanescoxi_1.3.1_iphoneos-arm.deb
+Size: 137372
+MD5sum: 73dfdf1f1cdbd95e3b770fe787b37967
+
+Package: com.tqm-mos.facespro
+Name: Faces Pro
+Version: 1.1-1
+Architecture: iphoneos-arm
+Description: Customize your passcode buttons the way you like.
+Author: Mos
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.3), ws.hbang.common (>= 1.6)
+Conflicts: org.benrosen.faces, com.repo.xarold.com.faces
+Icon: file:///Library/PreferenceBundles/FacesPro.bundle/FacesPro@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.facespro_1.1-1_iphoneos-arm.deb
+Size: 146846
+MD5sum: 45004f40b666eee97d341ef3c8b2a85b
+
+Package: com.tqm-mos.filza
+Name: Filza
+Version: 3.5.2-4k
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: Mos
+Section: Utilities
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.filza_3.5.2-4k_iphoneos-arm.deb
+Size: 8476006
+MD5sum: 64eeb013e229abd1d1dc4c4a28c1f6fb
+
+Package: com.tqm-mos.frontpage
+Name: FrontPage
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Powerful html for the springboard.
+Author: mos
+Section: Addons
+Depends: mobilesubstrate
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.frontpage_1.1_iphoneos-arm.deb
+Size: 611398
+MD5sum: 7b8e2862dc7583bd7080804284941602
+
+Package: com.tqm-mos.gamegem
+Name: GameGem
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Cheat engine for ios. Supports iPhone and iPad with iOS 6-10.2
+Author: Mos
+Maintainer: QM
+Section: Applications
+Depends: firmware (>= 6.0), firmware (<= 10.2)
+Icon: file:///Applications/MemSearch.app/AppIcon60x60@2x.png
+Conflicts: com.tqm-mos.gamegem10.3
+Filename: ./debs/com.tqm-mos.gamegem_1.1_iphoneos-arm.deb
+Size: 2248710
+MD5sum: 993b121419f07b79b05368de06fd0702
+
+Package: com.tqm-mos.gamegem10.3
+Name: GameGem 10.3
+Version: 1.1-2
+Architecture: iphoneos-arm
+Description: Cheat engine for ios. Fix for iPhone and iPad with iOS 10.3
+Author: Mos
+Maintainer: Quangminh
+Section: Applications
+Depends: firmware (>= 10.3), firmware (<= 11)
+Icon: file:///Applications/MemSearch.app/AppIcon60x60@2x.png
+Conflicts: com.tqm-mos.gamegem
+Filename: ./debs/com.tqm-mos.gamegem10.3_1.1-2_iphoneos-arm.deb
+Size: 2248940
+MD5sum: 78a21443e38a774c2cfce4856e2b6be5
+
+Package: com.tqm-mos.hidemex10
+Name: HideMeX (iOS 10)
+Version: 1.1k
+Architecture: iphoneos-arm
+Description: The Ultimate iOS Customizing Experience
+Author: mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate, firmware (>= 10.0), firmware (<= 11.0), org.thebigboss.libcolorpicker, preferenceloader, applist
+Conflicts: com.cpdigitaldarkroom.hidemex, com.repo.xarold.com.hidemex, com.cpdigitaldarkroom.hideme7-lite, com.cpdigitaldarkroom.hideme7, com.repo.xarold.com.hideme7, com.cpdigitaldarkroom.hideme8-lite, com.cpdigitaldarkroom.hideme8, com.repo.xarold.com.hideme8, com.joshuaseltzer.advancedsettings8, com.sull.hiddensettings8, me.devbug.hiddensettings7
+Filename: ./debs/com.tqm-mos.hidemex10_1.1k_iphoneos-arm.deb
+Size: 793710
+MD5sum: e7a3430534fa238c7aa11952de0de31b
+
+Package: com.tqm-mos.icleanerpro
+Name: iCleaner Pro
+Version: 7.7.0k
+Architecture: iphoneos-arm
+Description: The first real iOS system cleaner & optimizer
+Author: mos
+Section: Utilities
+Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.icleanerpro_7.7.0k_iphoneos-arm.deb
+Size: 10864686
+MD5sum: a71b0a88213ff1a259fc47301514b824
+
+Author: mos
+Maintainer: QM
+Name: NoBlur
+Package: com.tqm-mos.noblur
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader (>= 2.2.2), applist
+Section: Tweaks
+Installed-Size: 334
+Version: 1.6.2
+Architecture: iphoneos-arm
+Description: Removes iOS blur views.
+dev: mos
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/NoBlur.bundle/NoBlur@2x.png
+Filename: ./debs/com.tqm-mos.noblur_1.6.2_iphoneos-arm.deb
+Size: 88734
+MD5sum: 311676033efffb0d399a0ec86fc5eaa5
+
+Package: com.tqm-mos.noblurfolderconxi
+Name: NoBlurFolderIconXI
+Version: 0.2
+Architecture: iphoneos-arm
+Description: Removes the blurry background on folder icons, fucks up the dock right now
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.laughingquoll.noctisxi, com.repo.xarold.com.noctisxi
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.noblurfolderconxi_0.2_iphoneos-arm.deb
+Size: 4726
+MD5sum: 16ca9f6fb325982c4a0de5e069c088e9
+
+Package: com.tqm-mos.noslowanmationsxi
+Name: NoSlowAnimationsXI
+Version: 5.1.3-1+debug
+Architecture: iphoneos-arm
+Description: Don’t get slowed down by animations on iOS 11!
+Author: Mos
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.noslowanmationsxi_5.1.3-1+debug_iphoneos-arm.deb
+Size: 23944
+MD5sum: 432a2a756bec7c8a47deb384fc383277
+
+Package: com.tqm-mos.nottoday10
+Name: NotToday10
+Version: 1.2.2
+Architecture: iphoneos-arm
+Description: Disables the today/spotlight screen in all areas of iOS 10.
+Author: Mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.nottoday10_1.2.2_iphoneos-arm.deb
+Size: 29334
+MD5sum: 6741cef19f5e86aba50bfb61ed902f90
+
+Author: Mos
+Maintainer: QM
+Name: NudeKeys
+Package: com.tqm-mos.nudekeys
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Section: Tweaks
+Installed-Size: 5116
+Version: 4.3
+Architecture: iphoneos-arm
+Description: Strip those sexy keys!
+dev: mos
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Icon: file:///Library/PreferenceBundles/NudeKeys.bundle/NudeKeys@2x.png
+Filename: ./debs/com.tqm-mos.nudekeys_4.3_iphoneos-arm.deb
+Size: 1596904
+MD5sum: 3c6652d3457af4f7816ef691a8b04ac8
+
+Package: com.tqm-mos.pandahelpervip
+Name: Panda Helper VIP
+Version: 1.0.4k
+Architecture: iphoneos-arm
+Description: More Tweaked app and Hacked gamesMore By @Cydia_Tqm-mos
+Author: mos
+Maintainer: QM
+Section: Applications
+Depends: mobilesubstrate
+Filename: ./debs/com.tqm-mos.pandahelpervip_1.0.4k_iphoneos-arm.deb
+Size: 10619482
+MD5sum: b2563e426827cf3b67b074231a8e7fc4
+
+Name: Power Tap
+Package: com.tqm-mos.powertap
+Priority: optional
+Depends: firmware (>= 7.1), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.dpkgdan.slidetoreboot, com.myrepospace.dpkgdan.powertap, com.myrepospace.dpkgdan.slidetoreboot
+Version: 1.1.3-3
+Architecture: iphoneos-arm
+Description: tap powerdown knob to reboot, respring, safe mode
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Installed-Size: 270
+dev: mos
+Filename: ./debs/com.tqm-mos.powertap_1.1.3-3_iphoneos-arm.deb
+Size: 74422
+MD5sum: a3db48ade030f19b9c71a32e1ba27674
+
+Package: com.tqm-mos.priorityhub
+Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Name: Priority Hub
+Version: 1.5.4
+Architecture: iphoneos-arm
+Description: Organize lockscreen notifications
+Maintainer: QM
+Author: mos
+Section: Tweaks
+dev: mos
+Installed-Size: 351
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Icon: file:///Library/PreferenceBundles/PriorityHub.bundle/PriorityHub@2x.png
+Filename: ./debs/com.tqm-mos.priorityhub_1.5.4_iphoneos-arm.deb
+Size: 71672
+MD5sum: 817694bf34d2bf32c3db6e207ef9bd8d
+
+Package: com.tqm-mos.priorityhub11
+Name: Priority Hub (IOS11)
+Version: 0.0.9-2
+Architecture: iphoneos-arm
+Description: Organize your notifications!
+Author: Mos
+Section: Tweaks
+Depends: firmware (>= 11), mobilesubstrate, preferenceloader, applist
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.priorityhub11_0.0.9-2_iphoneos-arm.deb
+Size: 66292
+MD5sum: 5709a7b430bb953f763e34b89acc4668
+
+Package: com.tqm-mos.quickdialpro
+Name: QuickDial Pro
+Version: 1.4
+Architecture: iphoneos-arm
+Description: 3D touch contacts numbers to call/message
+Author: mos
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker
+Conflicts: com.laughingquoll.quickdiallite
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.quickdialpro_1.4_iphoneos-arm.deb
+Size: 321462
+MD5sum: f32b3499d4d4689f6101ad5f40a1cc37
+
+Package: com.tqm-mos.quickdo
+Name: QuickDo
+Version: 3.9.4k
+Architecture: iphoneos-arm
+Description: Gestures, shortcuts, toggles, app switcher and multitasking management for iOS.
+Author: Mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader (>= 2.0), com.a3tweaks.flipswitch
+Conflicts: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qdf, com.repo.xarold.com.qdf, com.clezz.qdb
+Icon: file:///Library/PreferenceBundles/QuickDoSettings.bundle/Icon-small.png
+Filename: ./debs/com.tqm-mos.quickdo_3.9.4k_iphoneos-arm.deb
+Size: 1733902
+MD5sum: bb57f4c4d92943e0ea71c5cdd5f261fa
+
+Package: com.tqm-mos.quickdovh
+Name: QuickDo (Activator) Việt Hoá
+Version: 3.9.4k
+Architecture: iphoneos-arm
+Description: Gestures, shortcuts, toggles, app switcher and multitasking management for iOS. Việt sub Mos
+Author: Mos
+Maintainer: QM
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader (>= 2.0), com.a3tweaks.flipswitch
+Conflicts: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.quickdo, com.clezz.clezzqd, com.clezz.qda, com.clezz.qdb, com.clezz.qdc, com.clezz.qdd, com.clezz.qde
+Replaces: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.quickdo, com.clezz.clezzqd, com.clezz.qda, com.clezz.qdb, com.clezz.qdc, com.clezz.qdd, com.clezz.qde
+Filename: ./debs/com.tqm-mos.quickdovh_3.9.4k_iphoneos-arm.deb
+Size: 1735998
+MD5sum: 94378240b663e26bda1eb49c001508b8
+
+Package: com.tqm-mos.ringtones
+Name: Ringtones
+Version: 2.0-11
+Architecture: iphoneos-arm
+Description: Allow Add ringtones to iDevice!
+Author: mos
+Maintainer: QM
+Section: Utilities
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.tqm-mos.ringtones_2.0-11_iphoneos-arm.deb
+Size: 21922
+MD5sum: fbc4f7074ce3d41992a7d586dcfc0e59
+
+Name: SimpleLSiOS
+Package: com.tqm-mos.simplelsios10
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.3.3-1
+Architecture: iphoneos-arm
+Description: Simple lockscreen for iOS 10/11 devices
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Installed-Size: 673
+dev: mos
+Icon: file:///Library/PreferenceBundles/SIMPLELSPB.bundle/icon@2x.png
+Filename: ./debs/com.tqm-mos.simplelsios10_1.3.3-1_iphoneos-arm.deb
+Size: 199024
+MD5sum: 93d3e32110e945f92111d02ecf13e498
+
+Author: Mos
+Maintainer: QM
+Name: SleekCode
+Package: com.tqm-mos.sleekcode
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader
+Section: Tweaks
+Installed-Size: 377
+Version: 1.1-5
+Architecture: iphoneos-arm
+Description: Sleek pass code!
+dev: mos
+Tag: purpose::extension, ios7support::1, ios8support::1
+Icon: file:///Library/PreferenceBundles/SleekCode.bundle/SleekCode@2x.png
+Filename: ./debs/com.tqm-mos.sleekcode_1.1-5_iphoneos-arm.deb
+Size: 168602
+MD5sum: 27dcfa62ea4c14b877a9512dc67958ec
+
+Package: com.tqm-mos.sleeknbouncy8
+Name: Sleek'n'Bouncy8
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+Version: 1.3
+Installed-Size: 117
+Filename: ./debs/com.tqm-mos.sleeknbouncy8_1.3_iphoneos-arm.deb
+Size: 5542
+MD5sum: 7774a90788ab65d7cfbc55f6b4c18fb3
+
+Author: Mos
+Maintainer: QM
+Name: Sleek'n'Bouncy9
+Package: com.tqm-mos.sleeknbouncy9
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Section: Tweaks
+Installed-Size: 117
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Description: Add a bounce effect to animations!
+dev: mos
+Tag: purpose::extension, compatible::ios9
+Filename: ./debs/com.tqm-mos.sleeknbouncy9_0.0.1-2_iphoneos-arm.deb
+Size: 5656
+MD5sum: 70b04264a6519ec52f8e7632ac494886
+
+Package: com.tqm-mos.sleeknbouncy10
+Name: Sleek'n'Bouncy10
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+Version: 1.2
+Installed-Size: 125
+Filename: ./debs/com.tqm-mos.sleeknbouncy10_1.2_iphoneos-arm.deb
+Size: 8818
+MD5sum: 2dc11b2eda18f789f2bdc25e4c9456d4
+
+Package: com.tqm-mos.slidetounlockx
+Name: SlideToUnlockX
+Version: 1.0.5-2
+Architecture: iphoneos-arm
+Description: Bring Slide To Unlock Back To iOS 10.
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0)
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.slidetounlockx_1.0.5-2_iphoneos-arm.deb
+Size: 169848
+MD5sum: bad84d01c1620c1aa9165abec8b35ee1
+
+Package: com.tqm-mos.smarttap
+Name: SmartTap
+Version: 0.8-350k
+Architecture: iphoneos-arm
+Description: Turn on the screen by tapping it!
+Author: mos
+Section: Tweaks
+Maintainer: QM
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Icon: file:///Library/PreferenceBundles/SmartTapSettings.bundle/SmartTapSettings@2x.png
+Filename: ./debs/com.tqm-mos.smarttap_0.8-350k_iphoneos-arm.deb
+Size: 107368
+MD5sum: af87bef97cb6745a2fb95ae821d82858
+
+Package: com.tqm-mos.smarttapx
+Name: SmartTap X
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Version: 0.1-251
+Architecture: iphoneos-arm
+Description: Turn on the screen by tapping it!
+Installed-Size: 431
+Maintainer: QM
+Author: Mos
+Section: Tweaks
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Icon: file:///Library/PreferenceBundles/SmartTapSettings.bundle/SmartTapSettings@2x.png
+Filename: ./debs/com.tqm-mos.smarttapx_0.1-251_iphoneos-arm.deb
+Size: 115258
+MD5sum: c815b595619eac6e5b62e868a3a1352e
+
+Package: com.tqm-mos.sonus
+Name: Sonus
+Version: 3.0.2-3
+Architecture: iphoneos-arm
+Description: A better & highly customizable volume hud.
+Author: mos
+Section: Tweaks
+Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.9), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: io.github.himynameisubik.sonus, com.repo.xarold.com.sonus
+Icon: file:///Library/PreferenceBundles/SonusPrefs.bundle/Images/Sonus@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.sonus_3.0.2-3_iphoneos-arm.deb
+Size: 174890
+MD5sum: b3ca4bb6cc266be4cc4dfbd69bc7a09b
+
+Package: com.tqm-mos.speedintensifier
+Name: Speed Intensifier
+Version: 10.1-1
+Architecture: iphoneos-arm
+Description: Speeds up iOS Animations
+Author: mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.tqm-mos.speedintensifier_10.1-1_iphoneos-arm.deb
+Size: 59016
+MD5sum: e2d9eb6c582588d36bb29407af39054a
+
+Package: com.tqm-mos.stackxi
+Name: StackXI
+Version: 0.4.4
+Architecture: iphoneos-arm
+Description: Grouped notifications, iOS 12 style.
+Author: Mos
+Section: IOS11
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), firmware (<< 11.4.1), cy+cpu.arm64
+Conflicts: com.ioscreatix.intelix, com.repo.xarold.com.intelix, com.ioscreatix.intelixbeta
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.stackxi_0.4.4_iphoneos-arm.deb
+Size: 34960
+MD5sum: 8ad0c26bbce8ce3e10d14123f2d818be
+
+Package: com.tqm-mos.swipeselection-pro
+Name: SwipeSelection Pro
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Description: Swipe along the keyboard to move cursor & select text
+Author: mos
+Section: Tweaks
+Maintainer: QM
+Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: com.iky1e.swipeselection
+Icon: file:///Library/PreferenceBundles/SwipeSelectionPro.bundle/SwipeSelectionPro@2x.png
+Filename: ./debs/com.tqm-mos.swipeselection-pro_1.0.3-1_iphoneos-arm.deb
+Size: 44748
+MD5sum: c5ba8ae3e44e2b859e46b8bf70ff84db
+
+Package: com.tqm-mos.tage
+Name: Tage
+Version: 1.2.2-1k
+Architecture: iphoneos-arm
+Description: Awesome multitasking gestures and more. /
+Author: Mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Icon: file:////Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
+Filename: ./debs/com.tqm-mos.tage_1.2.2-1k_iphoneos-arm.deb
+Size: 618848
+MD5sum: bc1e8f7807ab15c3534990a5664f1e8f
+
+Package: com.tqm-mos.touchr
+Name: Touchr
+Version: 1.0.2k
+Architecture: iphoneos-arm
+Description: TouchID gestures / TouchID
+Author: Mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Icon: file:///Library/PreferenceBundles/TouchrSettings.bundle/Icon-small@2x.png
+Filename: ./debs/com.tqm-mos.touchr_1.0.2k_iphoneos-arm.deb
+Size: 204438
+MD5sum: a48a3530555eb7e7a4be030e9886950f
+
+Package: com.tqm-mos.uasharedtools
+Name: uasharedtools (iOS 7-10)
+Version: 2.2r-71
+Architecture: iphoneos-arm
+Description: shared tools for unlimapps tweaks
+Author: Mos
+Section: Development
+Depends: mobilesubstrate, firmware (<< 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.repo.xarold.com.uasharedtools, com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.uasharedtools_2.2r-71_iphoneos-arm.deb
+Size: 23318710
+MD5sum: c7b2468f1a242c3fb152c4756825c2d4
+
+Package: com.tqm-mos.upscale
+Name: Upscale
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change Device Resolution
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.bd452.upscale, com.repo.xarold.com.upscale
+Icon: file:///Library/PreferenceBundles/Upscale.bundle/icon@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.upscale_0.0.1_iphoneos-arm.deb
+Size: 19760
+MD5sum: 42a18c2e82ba80bb79d70b0b73dbb79f
+
+Package: com.tqm-mos.vocoder
+Name: VoiceChanger
+Version: 1.1-28
+Architecture: iphoneos-arm
+Description: Change your voice while in a call, live!
+Author: mos
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader, gsc.telephony, com.rpetrich.rocketbootstrap
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.vocoder_1.1-28_iphoneos-arm.deb
+Size: 85876
+MD5sum: 4fd09ba6bba6b6592182fec69f49639a
+
+Package: com.tqm-mos.voicechangerx
+Name: VoiceChangerX
+Version: 0.1-45
+Architecture: iphoneos-arm
+Description: Change your voice during a call!
+Author: mos
+Section: Tweaks
+Depends: mobilesubstrate, preferenceLoader
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.voicechangerx_0.1-45_iphoneos-arm.deb
+Size: 105184
+MD5sum: f6e29b726cde9c0465ada791bea46e6d
+
+Package: com.tqm-mos.win10
+Name: Win10
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Theme for FrontPage
+Author: Mos
+Section: Addons
+Depends: mobilesubstrate, com.tqm-mos.frontpage
+Maintainer: QM
+Filename: ./debs/com.tqm-mos.win10_0.1_iphoneos-arm.deb
+Size: 436732
+MD5sum: 1dcbb920e4e00dcd1af5c479b295f338
+
+Package: com.tqm-mos.youtube
+Name: YouTube ++
+Version: 1.4r-76
+Architecture: iphoneos-arm
+Description: Download all YouTube Videos! Continue background playback and much more!!!
+Author: Mos
+Section: Tweaks
+Maintainer: QM
+Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.tqm-mos.uasharedtools (>= 2.1b-97)
+Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib, com.repo.xarold.com.cercube, com.unlimapps.ytpp
+Filename: ./debs/com.tqm-mos.youtube_1.4r-76_iphoneos-arm.deb
+Size: 3146786
+MD5sum: 1dba714ad959b2d705ed82a30c6b2f79
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: Quang minh
+Name: Evanesco
+Package: io.github.tqm-mos.evanesco
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Section: Tweaks
+Installed-Size: 567
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Clear Your Homescreen After Inactivity
+dev: mos
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/Evanesco.bundle/images/Evanesco@2x.png
+Filename: ./debs/io.github.tqm-mos.evanesco_1.2_iphoneos-arm.deb
+Size: 159942
+MD5sum: fe00009124d5750cbe871c66c206cb43
+
+Name: IconBounce
+Package: io.github.tqm-mos.iconbounce
+Priority: optional
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader
+Version: 3.0.0-1
+Architecture: iphoneos-arm
+Description: dock icons randomly bounce & animate
+Maintainer: Quangminh
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Installed-Size: 433
+dev: mos
+Icon: file:///Library/PreferenceBundles/IconBouncePreferences.bundle/Icon@2x.png
+Filename: ./debs/io.github.tqm-mos.iconbounce_3.0.0-1_iphoneos-arm.deb
+Size: 125948
+MD5sum: 188393fe060c75e19c74fea62ed7a1dc
+
+Name: SkinnySettings
+Package: io.github.tqm-mos.skinnysettings
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader, org.thebigboss.libcolorpicker
+Version: 1.2.4
+Architecture: iphoneos-arm
+Description: Make your Settings Minimal/Sleek & More!
+Maintainer: Quang minh
+Author: Mos
+Section: Tweaks
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Installed-Size: 401
+dev: mos
+Icon: file:///Library/PreferenceBundles/SkinnySettings.bundle/SkinnySettings@2x.png
+Filename: ./debs/io.github.tqm-mos.skinnysettings_1.2.4_iphoneos-arm.deb
+Size: 84200
+MD5sum: 8328a9bd4b72146f6d2696bf10d68d4c
+
+Author: mos
+Maintainer: Quangminh
+Name: Snoverlay
+Package: io.github.tqm-mos.snoverlay
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Section: Tweaks
+Version: 1.1
+Installed-Size: 338
+Architecture: iphoneos-arm
+Description: Overlay snowflakes on top of home/lock screen wallpaper
+dev: mos
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/snoverlaypreferences.bundle/Snoverlay@2x.png
+Filename: ./debs/io.github.tqm-mos.snoverlay_1.1_iphoneos-arm.deb
+Size: 42468
+MD5sum: 7b86f90125a74d62b469e5ae1455cd7e
+
+Package: io.github.tqm-mos.transparentdock
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Name: TransparentDock
+Version: 1.1-1
+Architecture: iphoneos-arm
+Description: Remove iOS 7 dock's blurred background
+Installed-Size: 65
+Maintainer: Quangminh
+Author: Mos
+Section: Tweaks
+dev: jonbailey889
+Filename: ./debs/io.github.tqm-mos.transparentdock_1.1-1_iphoneos-arm.deb
+Size: 3798
+MD5sum: b4ef30dba99470a37d575ea69b765717
+
+Name: TransparentFolders
+Package: io.github.tqm-mos.transparentfolders
+Priority: optional
+Depends: firmware (>= 9.0), mobilesubstrate
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Transparent Folders for iOS 9.0+!
+Maintainer: Quang minh
+Author: mos <devmos388373@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios9
+Installed-Size: 192
+dev: Mos
+Filename: ./debs/io.github.tqm-mos.transparentfolders_1.0-1_iphoneos-arm.deb
+Size: 5988
+MD5sum: 5701c4fafbc43354d347529df4846a21
+
+Package: com.tqm-mos.AssistiveTouch1
+Name: AssistiveTouch || 1
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.AssistiveTouch1_0.1_iphoneos-arm.deb
+Size: 513266
+MD5sum: 379b7879b87a355afb274ec13d5ab8b5
+
+Package: com.tqm-mos.AssistiveTouch2
+Name: AssistiveTouch || 2
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.AssistiveTouch2_0.1_iphoneos-arm.deb
+Size: 565360
+MD5sum: b66e09407d51cde67e51bf170f77be1b
+
+Package: com.tqm-mos.AssistiveTouchip55c5s
+Name: AssistiveTouch IP5/5c/5s
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.AssistiveTouchip55c5s_0.1_iphoneos-arm.deb
+Size: 425730
+MD5sum: 4a11ea73e6e6cb1be51e72010fe849ae
+
+Package: com.tqm-mos.AssistiveTouchip67
+Name: AssistiveTouch IP6/7
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.AssistiveTouchip67_0.1_iphoneos-arm.deb
+Size: 474032
+MD5sum: 47979258df2e522486c3fb816fa35967
+
+Package: com.tqm-mos.barsandroid
+Name: Bars Android
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.barsandroid_0.1_iphoneos-arm.deb
+Size: 3716030
+MD5sum: f6868c8fdd13c686e528cb918fb27df2
+
+Package: com.tqm-mos.barsandroidplus
+Name: Bars Android Plus
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Thanh statusbar giống android                                                                       Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.barsandroidplus_0.1_iphoneos-arm.deb
+Size: 4013298
+MD5sum: d433b321ac3d65f54c2bba77d33c98b7
+
+Package: com.tqm-mos.barsxi9
+Name: BarsXI IOS9
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.barsxi9_0.1_iphoneos-arm.deb
+Size: 3719220
+MD5sum: fab1a088d90711b648959eb1d75f8ea6
+
+Package: com.tqm-mos.barsxi10
+Name: BarsXI Plus
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.barsxi10_0.1_iphoneos-arm.deb
+Size: 4002296
+MD5sum: 704fec98b0e95db9b8a2834e20c14d58
+
+Package: com.tqm-mos.chuongcafe
+Name: Car Volume Cafe
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.chuongcafe_0.1_iphoneos-arm.deb
+Size: 265238
+MD5sum: 6f0f80388b86c96e92a937e4edf6eabb
+
+Package: com.tqm-mos.chuonglove
+Name: Car Volume Love
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.chuonglove_0.1_iphoneos-arm.deb
+Size: 409310
+MD5sum: 77be9f4cb3ed65e918c5707aa5c55026
+
+Package: com.tqm-mos.OriAssetswifi1
+Name: Bars OriAssetswifi 1
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.OriAssetswifi1_0.1_iphoneos-arm.deb
+Size: 4002342
+MD5sum: 5c2070e802bc52ecfe2de3d16a079359
+
+Package: com.tqm-mos.OriAssetswifi2
+Name: Bars OriAssetswifi 2
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11                                                                                 
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.OriAssetswifi2_0.1_iphoneos-arm.deb
+Size: 4003056
+MD5sum: 1548587d884842a8f79bee9e447a5e3f
+
+Package: tqm-mos.iconrepo
+Name: iCons Repo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: iCon Repo of Tqm-mos
+Depiction: gói icon cho source 
+Author: Mos
+Maintainer: QM 
+Section: System
+Filename: ./debs/tqm-mos.iconrepo_1.0_iphoneos-arm.deb
+Size: 5424
+MD5sum: 0956b033d4452b2fa73dcb52db00fc6d
+
+Package: com.tqm-mos.win8
+Name: Win8
+Version: 1.7
+Architecture: iphoneos-arm
+Description: A Tweak to bring the Windows 8 Mobile experience to iOS
+Author: Mos
+Section: Tweaks
+Maintainer: QM <devmos388373@gmail.com>
+Depends: mobilesubstrate
+Conflicts: gsc.ipad
+Filename: ./debs/com.tqm-mos.win8_1.7_iphoneos-arm.deb
+Size: 4469714
+MD5sum: df5f98299924fa927f09f92d04840655
+
+Package: com.tqm-mos.facebookdarkmode
+Name: Facebook Dark Mode
+Version: 2.1.13
+Architecture: iphoneos-arm
+Description: Dark mode for Facebook
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.facebookdarkmode_2.1.13_iphoneos-arm.deb
+Size: 563656
+MD5sum: 1d4783126b43bdd4422382257fcc7287
+
+Package: com.tqm-mos.fb++
+Name: Facebook ++
+Version: 1.6r-38
+Architecture: iphoneos-arm
+Description: The Facebook tweak that allows you to turn off read recipts, use the in-app messenger, save/download videos and much more!
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.fb++_1.6r-38_iphoneos-arm.deb
+Size: 2600948
+MD5sum: ab8a9ffade294b48b3b3eb8c5cf4d556
+
+Package: com.tqm-mos.melior
+Name: Melior
+Version: 1.0.6-1
+Architecture: iphoneos-arm
+Description: Custom volume HUD
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.melior_1.0.6-1_iphoneos-arm.deb
+Size: 299796
+MD5sum: c339ea4be852395c3c3b5ced45212b0f
+
+Package: com.tqm-mos.springtomize3
+Name: Springtomize 3 (iOS 9/8/7)
+Version: 1.4.5-1
+Architecture: iphoneos-arm
+Description: Customize your device like never before.
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap
+Conflicts: com.filippobiga.springtomize2
+Icon: file:///Library/PreferenceBundles/ST3Settings.bundle/icons/Main@2x.png
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.springtomize3_1.4.5-1_iphoneos-arm.deb
+Size: 864776
+MD5sum: c9f6be4b03b9256b962c092bf7adaf3d
+
+Package: com.tqm-mos.st4
+Name: Springtomize 4 (iOS 10)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Customize your device like never before.
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.rpetrich.rocketbootstrap
+Conflicts: com.filippobiga.springtomize2, com.filippobiga.springtomize3, com.repo.xarold.com.springtomize3, com.tqm-mos.springtomize3
+Icon: file:///Library/PreferenceBundles/STPreferences.bundle/AppIcon40x40@2x.png
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.st4_1.0_iphoneos-arm.deb
+Size: 685098
+MD5sum: 9a439a912d3c1666724acf3f3aa2f8e6
+
+Name: TintIconLabel
+Package: com.tqm-mos.tinticonlabel
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader, org.thebigboss.libcolorpicker
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Custom Colors for your Icons Labels!
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Installed-Size: 292
+dev: mos
+Icon: file:///Library/PreferenceBundles/TintIconLabel.bundle/TintIconLabel@2x.png
+Filename: ./debs/com.tqm-mos.tinticonlabel_1.0.1_iphoneos-arm.deb
+Size: 80712
+MD5sum: 4af7c3342f3557c0b649f93c18d8ce09
+
+Package: com.tqm-mos.vwallpaper2forios7
+Name: vWallpaper 2
+Version: 0.2.0-14
+Architecture: iphoneos-arm
+Description: Add videos, video ringtones, cool effects (particles, 3D objects), HTML Widgets (...) on your Springboard and / or Away view. Bring your iPhone to life ! (Beta stage)
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Maintainer: QM <devmos388373@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Replaces: com.skrew.skrewcommon2, com.skrew.vwallpaper2os5
+Filename: ./debs/com.tqm-mos.vwallpaper2forios7_0.2.0-14_iphoneos-arm.deb
+Size: 26552224
+MD5sum: 0d0e7ffc12d28e842d40956b91d9be91
+
+Package: com.tqm-mos.ios4lobstertwofont
+Name: Lobster Two Font
+Version: 2.0
+Architecture: iphoneos-arm
+Depends: com.ipr.bytafont
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: Fonts
+Description: BytaFont font by iPhoneRuler.net
+Filename: ./debs/com.tqm-mos.ios4lobstertwofont_2.0_iphoneos-arm.deb
+Size: 4882406
+MD5sum: 36b73460b4349875b31ba411a041d641
+
+Package: com.tqm-mos.lobstertwo
+Name: Lobster Two (10-11)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Font "Lobster Two" Một bộ font khá là đẹp phù hợp với phái mạnh
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.lobstertwo_1.1_iphoneos-arm.deb
+Size: 13900344
+MD5sum: 8f10628fcf4629530a73fffb52712164
+
+Package: com.tqm-mos.lobstertwo910
+Name: Lobster Two Font 9/10
+Version: 1.0
+Architecture: iphoneos-arm
+Depends:
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: Fonts
+Description: Font for BytaFont 3 by BytaFont.com
+Filename: ./debs/com.tqm-mos.lobstertwo910_1.0_iphoneos-arm.deb
+Size: 9789188
+MD5sum: dc24118ceebbf022c6d1cf20032b322e
+
+Package: com.tqm-mos.BlackOrs
+Name: BlackOrs
+Version: 1.0
+Architecture: iphoneos-arm
+Description: old gold theme
+Author:  mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Themes
+Filename: ./debs/com.tqm-mos.BlackOrs_1.0_iphoneos-arm.deb
+Size: 3109642
+MD5sum: 8435559a5ec9cee16474d60cde1b00db
+
+Package: com.tqm-mos.BlackOrs2
+Name: BlackOrs 2
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Dark,Black,colors,icons
+Author:  mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Themes
+Filename: ./debs/com.tqm-mos.BlackOrs2_1.2_iphoneos-arm.deb
+Size: 6683432
+MD5sum: 44fee937e862c6a60f07617b4a4a3dbe
+
+Package: com.tqm-mos.BlackOrs3
+Name: BlackOrs3
+Version: 1.1
+Architecture: iphoneos-arm
+Description: black golden icons
+Author:  mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Themes
+Filename: ./debs/com.tqm-mos.BlackOrs3_1.1_iphoneos-arm.deb
+Size: 18159338
+MD5sum: 842719cf9c9b63b4f98e5195a97515b5
+
+Package: com.tqm-mos.blueberry
+Name: BlueBerry
+Version: 1.0
+Dependencies: 
+Architecture: iphoneos-arm
+Description: Because it's just blueberry
+Section: Themes
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Depends: firmware (>= 10.0)
+Filename: ./debs/com.tqm-mos.blueberry_1.0_iphoneos-arm.deb
+Size: 10989194
+MD5sum: abddde7a23a35952b643adab86a80dae
+
+Package: com.tqm-mos.circuitxidemo
+Name: CircuitXI Demo 
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Try it before you buy it!
+Maintainer: QM <devmos388373@gmail.com>
+Author: MOS <devmos388373@gmail.com>
+Section: Themes
+dev: MOS
+Filename: ./debs/com.tqm-mos.circuitxidemo_1.0_iphoneos-arm.deb
+Size: 5083194
+MD5sum: 26e3d39213a5dc98f020cc2d3e926f52
+
+Package: com.tqm-mos.circuitxipro
+Section: Themes
+Maintainer: QM <devmos388373@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.2
+Description: Stunning and Clean
+Name: CircuitXI Pro
+Author: Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.circuitxipro_1.2.2_iphoneos-arm.deb
+Size: 25961792
+MD5sum: e056ad10528ea7c48854dcb9f54f7cf8
+
+Architecture: iphoneos-arm
+Name: Coblack
+Package: com.tqm-mos.coblack
+Version: 1.0
+Website: http://tqm-mos.github.io
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Description: coblack iOS 11
+Section: Themes
+Filename: ./debs/com.tqm-mos.coblack_1.0_iphoneos-arm.deb
+Size: 1817878
+MD5sum: 0f8e62184c963a0b887a7b9d866dc599
+
+Package: com.tqm-mos.elegantxi
+Section: Themes
+Maintainer: QM <devmos388373@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Description: ELEGANCY DEFINED! 2 THEMES IN ONE!
+Name: ElegantXI
+Author: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.elegantxi_1.0_iphoneos-arm.deb
+Size: 61423362
+MD5sum: f49ab10a5fb3e24f6c2944ae8bdf39df
+
+Package: com.tqm-mos.Zenblue
+Name: Zenblue
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Dark,Black,colors,icons
+Author:  mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Themes
+Filename: ./debs/com.tqm-mos.Zenblue_1.2_iphoneos-arm.deb
+Size: 3541104
+MD5sum: c2267a5565e210dbbb7847933e01d9cf
+
+Package: com.tqm-mos.betterccxi
+Name: BetterCCXI
+Version: 1.3.9
+Architecture: iphoneos-arm
+Description: Enhance your control center on iOS 11
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Depends: mobilesubstrate, com.tqm-mos.ccsupport, preferenceloader
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.betterccxi_1.3.9_iphoneos-arm.deb
+Size: 60610
+MD5sum: 503c4d644c3cd02ce26c105198c1596f
+
+Package: com.tqm-mos.cclinker
+Name: CCLinker
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: Open the settings pane for the CC Toggles by using gestures!
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Depends: mobilesubstrate
+Icon: file:///Library/Application Support/CCLinker/icon.png
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.cclinker_1.1.2_iphoneos-arm.deb
+Size: 30940
+MD5sum: 5811966ec23c73eaad488d7610287599
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Name: CCSupport
+Package: com.tqm-mos.ccsupport
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Provides: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Conflicts: com.ioscreatix.silo
+Section: IOS11
+Installed-Size: 126
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: Support tweak for CC modules!
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Filename: ./debs/com.tqm-mos.ccsupport_1.1.2_iphoneos-arm.deb
+Size: 33502
+MD5sum: 6b11bf15575bd88d6c35162ad091957c
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Name: CoolCC
+Package: com.tqm-mos.coolcc
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), preferenceloader
+Section: IOS11
+Installed-Size: 665
+Version: 1:2.0
+Architecture: iphoneos-arm
+Description: This tweak makes ControlCenter cool!
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Icon: file:///Library/PreferenceBundles/CoolCCPref.bundle/icon@2x.png
+Filename: ./debs/com.tqm-mos.coolcc_1_2.0_iphoneos-arm.deb
+Size: 215300
+MD5sum: 3d472d4632f27bc680b10325d01eaec6
+
+Name: FloatingDock
+Package: com.tqm-mos.floatingdock
+Priority: optional
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Version: 1.4.2
+Architecture: iphoneos-arm
+Description: iPad like dock for iPhone!
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Tag: purpose::extension, compatible::ios11
+Installed-Size: 265
+dev: mos
+Icon: file:///Library/Application%20Support/FloatingDock/icon.png
+Filename: ./debs/com.tqm-mos.floatingdock_1.4.2_iphoneos-arm.deb
+Size: 43970
+MD5sum: cfbbe79444fb46457d4f8d564a5538bb
+
+Package: com.tqm-mos.littlex
+Name: LittleX
+Version: 1.3.4-1+debug
+Architecture: iphoneos-arm
+Description: iPhoneX Features for Non-X Devices on iOS 11
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Depends: mobilesubstrate, preferenceloader
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.littlex_1.3.4-1+debug_iphoneos-arm.deb
+Size: 57312
+MD5sum: 0a043bb3b9cf05e1414772cf8386d533
+
+Name: PercentageBatteryX
+Package: com.tqm-mos.percentagebatteryx
+Conflicts: com.neinzedd9.percentagecirclex
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 11.0)
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Adds the percentage inside of the battery on iPhone X.
+Maintainer: Mos <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Tag: purpose::extension, compatible::ios11
+Installed-Size: 116
+dev: Mos
+Filename: ./debs/com.tqm-mos.percentagebatteryx_1.0.2_iphoneos-arm.deb
+Size: 6660
+MD5sum: 13133ac6298d51a2e958c84f68c5a48e
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Name: RealCC
+Package: com.tqm-mos.realcc
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Section: IOS11
+Installed-Size: 76
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Actually disable Wi-Fi from the iOS 11 CC
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Filename: ./debs/com.tqm-mos.realcc_1.0.1_iphoneos-arm.deb
+Size: 4244
+MD5sum: 360f9d153509d629d0f6a71704781308
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Name: CCModules
+Package: com.tqm-mos.safeccmodules
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.tqm-mos.ccsupport
+Section: IOS11
+Installed-Size: 6321
+Version: 1.3-2
+Architecture: iphoneos-arm
+Description: Control center modules for iOS 11.
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Filename: ./debs/com.tqm-mos.safeccmodules_1.3-2_iphoneos-arm.deb
+Size: 1523992
+MD5sum: d75d48667c9d238bb40b4690f1bc4eb8
+
+Package: com.tqm-mos.sugarcane
+Name: SugarCane
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Description: Get percentages for the sliders in the Control Center on iOS 11
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Depends: mobilesubstrate
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.sugarcane_1.0.0-1+debug_iphoneos-arm.deb
+Size: 5590
+MD5sum: 70f4807b317c8a4021d3b9c7ae0c718a
+
+Package: com.tqm-mos.vwallpaper2os11
+Name: vWallpaper 2 (IOS11)
+Version: 0.5.0-5
+Architecture: iphoneos-arm
+Description: 
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0)
+Conflicts: com.abcydia.vwallpaper2os10
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.vwallpaper2os11_0.5.0-5_iphoneos-arm.deb
+Size: 3550274
+MD5sum: 32795961d68fc24b306ba681936bc5e7
+
+Package: com.tqm-mos.AsistiveTouchgoc
+Name: AssistiveTouch Gốc
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Signal Bars from iOS11              
+Author: Mos <devmos388373@gmail.com>
+Section: Car
+Maintainer: QM Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.AsistiveTouchgoc_0.1_iphoneos-arm.deb
+Size: 609568
+MD5sum: 48ec62db1da805c038689f5fc2fc6f93
+
+Package: com.tqm-mos.2x2folder
+Name: 2x2Folder
+Version: 0.0.1-4
+Architecture: iphoneos-arm
+Description: An awesome Cydia Substrate tweak!
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 5.0)
+Conflicts: net.dodtweaks.2x2folder
+Filename: ./debs/com.tqm-mos.2x2folder_0.0.1-4_iphoneos-arm.deb
+Size: 4146
+MD5sum: 1b2156ed804ae232d00b2528b173d2c7
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: Qm <devmos388373@gmail.com>
+Name: PhotoRes
+Package: com.tqm-mos.camera169
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), ws.hbang.common (>= 1.2)
+Section: Tweaks
+Installed-Size: 254
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Taking photos at any size.
+dev: mos
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/PhotoResSettings.bundle/PR@2x.png
+Filename: ./debs/com.tqm-mos.camera169_1.3_iphoneos-arm.deb
+Size: 37276
+MD5sum: 85f9fbc0bafbe7b4e7e9d45decebcde5
+
+Package: com.tqm-mos.camerabar
+Name: Trong suốt Camera
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Camera toàn màn hình không còn 2 dải đên trên dưới
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware, ws.hbang.common, gsc.still-camera | gsc.front-facing-camera
+Conflicts: org.thebigboss.transparentcamerabar
+Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@2x.png
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.camerabar_1.0_iphoneos-arm.deb
+Size: 113392
+MD5sum: 36f3cdcb72a326c583cbdb49ebad6417
+
+Package: com.tqm-mos.chococooky
+Name: Font Chococooky (10-11)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Font "Font Chococooky (10-11)
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.chococooky_1.1_iphoneos-arm.deb
+Size: 13527344
+MD5sum: f5848c55ed4159b59c482ae02d13946e
+
+Name: Cornuicopia
+Package: com.tqm-mos.cornuicopia
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.0.3-3
+Architecture: iphoneos-arm
+Description: rounded corners for UI in ios11
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos devmos388373@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11
+Installed-Size: 349
+dev: mos
+Icon: file:///PreferenceBundles/RoundedCorners.bundle/RoundedCorners@2x.png
+Filename: ./debs/com.tqm-mos.cornuicopia_1.0.3-3_iphoneos-arm.deb
+Size: 42748
+MD5sum: 26fa4ded8980e137aa1b82ffa81c8f39
+
+Package: com.tqm-mos.darkmessenger
+Name: Dark Messenger
+Version: 1.3.0
+Architecture: iphoneos-arm
+Description: Dark mode for Messenger
+Author: Mos devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Maintainer: QM devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.darkmessenger_1.3.0_iphoneos-arm.deb
+Size: 394374
+MD5sum: 5301d9c6e53f46715132115a4ccac340
+
+Package: com.tqm-mos.exotm
+Name: Exo (TM)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Font Exo Được mod lại full
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate
+Filename: ./debs/com.tqm-mos.exotm_1.0.0_iphoneos-arm.deb
+Size: 867528
+MD5sum: b370039033f4df14d5661a10d1f0e34a
+
+Package: com.tqm-mos.ginesotm
+Name: Gineso (TM)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Font Gineso Được mod lại full
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate
+Depends: firmware (>= 10), mobilesubstrate
+Filename: ./debs/com.tqm-mos.ginesotm_1.0.0_iphoneos-arm.deb
+Size: 1303522
+MD5sum: 5b3240b0fcc66a0075f3f792e1b2f76c
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: Mos <devmos388373@gmail.com>
+Name: GlowBadge
+Package: com.tqm-mos.glowbadge
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader
+Section: Tweaks
+Installed-Size: 643
+Version: 1.3-6
+Architecture: iphoneos-arm
+Description: Replace app badges with icon glow!
+dev: mos
+Tag: purpose::extension, ios7support::1, ios8support::1
+Icon: file:///Library/PreferenceBundles/GlowBadge.bundle/GlowBadge@2x.png
+Filename: ./debs/com.tqm-mos.glowbadge_1.3-6_iphoneos-arm.deb
+Size: 171894
+MD5sum: 87197a9148779bb08c9ad5793b8cbec2
+
+Name: InvisibleFolders
+Package: com.tqm-mos.invisiblefolders
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Version: 1.4-1
+Architecture: iphoneos-arm
+Description: No folder backgrounds & mini 
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+dev: mos
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 150
+Icon: file:///Library/PreferenceBundles/InvisibleFolders.bundle/InvisibleFolders@2x.png
+Filename: ./debs/com.tqm-mos.invisiblefolders_1.4-1_iphoneos-arm.deb
+Size: 21860
+MD5sum: ddacf94e446a2e6b688cd21b3c573886
+
+Name: Lithium Ion
+Package: com.tqm-mos.lithiumion
+Priority: optional
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Conflicts: com.fortysixandtwo.alkaline, lithium, com.carbondevstudio.lithiumion
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Ultimate Battery Customization
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Installed-Size: 1297
+dev: mos
+Icon: file:///Library/PreferenceBundles/lithiumionsettings.bundle/Icon-Settings@2x.png
+Filename: ./debs/com.tqm-mos.lithiumion_1.3_iphoneos-arm.deb
+Size: 501266
+MD5sum: 238e89eb2b493c8fca0a8e1f22956120
+
+Package: com.tqm-mos.lovetm
+Name: Love (TM)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Font Love Được mod lại full
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate
+Filename: ./debs/com.tqm-mos.lovetm_1.0.0_iphoneos-arm.deb
+Size: 2620800
+MD5sum: c6458964d29cc6590ba52a899051f15d
+
+Package: com.tqm-mos.Saxony
+Name: Font Saxony (10-11)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Font Saxony (10-11)" Một bộ font khá là đẹp phù hợp với phái mạnh
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.Saxony_1.1_iphoneos-arm.deb
+Size: 9919934
+MD5sum: 6144327e252c635fde23c35a578d167b
+
+Package: com.tqm-mos.teds
+Name: Font Teds (10-11)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Font  Teds (10-11)
+Author: Mos
+Maintainer: QM
+Section: Fonts
+Depends: firmware (>= 10), mobilesubstrate, com.anemonetheming.anemone
+Filename: ./debs/com.tqm-mos.teds_1.1_iphoneos-arm.deb
+Size: 15612444
+MD5sum: aac6cbbd5acde5b0b1cace81de769084
+
+Package: com.tqm-mos.cleanfolders
+Version: 0.0.1-1+debug
+Section: IOS11
+Maintainer: QM <devmos388373@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Name: Clean Folders
+Author: Mos <devmos388373@gmail.com>
+Sponsor: tqm-mos.github.io <http://tqm-mos.github.io>
+Description: Ultimate Battery Customization
+Filename: ./debs/com.tqm-mos.cleanfolders_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4478
+MD5sum: b8de8d1dc19ff6115e1736cbd40831ed
+
+Package: com.tqm-mos.aemonfixup
+Version: 1.0
+Section: IOS11
+Description: Fix font anemone for IOS 10 & 11
+Maintainer: QM <devmos388373@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Name: Anemone Fix Up 8.1
+Author: Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.aemonfixup_1.0_iphoneos-arm.deb
+Size: 6910
+MD5sum: 766bb0f5fca9c2946b72c2679b10334a
+
+Package: com.tqm-mos.screenshotapp
+Name: ScreenshotApp
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Screenshotapp for IOS 10 & 11
+Author: Mos <devmos388373@gmail.com>
+Section: Utilities
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.screenshotapp_1.2_iphoneos-arm.deb
+Size: 47192176
+MD5sum: 3402892d6acd8b5569eb76923b0b52dd
+
+Package: com.tqm-mos.screenshotappx
+Name: ScreenshotApp XI
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Screenshotapp for IOS 10 & 11
+Author: Mos <devmos388373@gmail.com>
+Section: Utilities
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.screenshotappx_1.2_iphoneos-arm.deb
+Size: 607316
+MD5sum: 7daa1628ce7b49b9b5c9cabc706fdadb
+
+Package: com.tqm-mos.electraRemover
+Name: Electra Remover
+Version: 1.0
+Architecture: iphoneos-arm
+Description: 
+Author: Mos <devmos388373@gmail.com>
+Section: IOS11
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.electraRemover_1.0_iphoneos-arm.deb
+Size: 1913868
+MD5sum: 13d447fcf2c0ba0c5ba25497f2bade59
+
+Package: com.tqm-mos.betterccicons
+Version: 1.0.7
+Section: IOS11
+Maintainer: QM <devmos388373@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Name: BetterCCIconsPro
+Author: Mos <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.betterccicons_1.0.7_iphoneos-arm.deb
+Size: 127728
+MD5sum: ef75342584b17e8aa7140514a0183b8e
+
+Author: Mos <devmos388373@gmail.com>
+Maintainer: QM <devmos388373@gmail.com>
+Name: ByeBlurNotifiBanners
+Package: com.tqm-mos.byeblurnotifibanners
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Section: IOS11
+Installed-Size: 117
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Remove Blur Notifications Banners
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Filename: ./debs/com.tqm-mos.byeblurnotifibanners_1.0_iphoneos-arm.deb
+Size: 4822
+MD5sum: cfcc6c1555bd338df745915d43987f9a
+
+Package: com.tqm-mos.bytafont3b
+Name: BytaFont 3b
+Version: 3.1.5b
+Architecture: iphoneos-arm
+Description: A system wide dark mode.
+Author: Mos
+Section: System
+Depends: firmware (>= 9),unzip,mobilesubstrate, com.tqm-mos.bytafonttm
+Conflicts: com.bytafont.bytafont3
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.bytafont3b_3.1.5b_iphoneos-arm.deb
+Size: 2003412
+MD5sum: e9bc571876f677d370bb66a0cbf68c11
+
+Package: com.tqm-mos.bytafont311
+Name: BytaFont 3 (iOS 11)
+Version: 3.1.5
+Architecture: iphoneos-arm
+Description: A system wide dark mode.
+Author: Mos
+Section: IOS11
+Depends: firmware (>= 11), unzip, mobilesubstrate, com.tqm-mos.bytafonttm
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.bytafont311_3.1.5_iphoneos-arm.deb
+Size: 1034718
+MD5sum: e9ae7f8f622e2c2e433e6cdeb05ed975
+
+Package: com.tqm-mos.bytafonttm
+Name: BytaFont Tweak Mode
+Version: 3.6
+Architecture: iphoneos-arm
+Description: A system wide dark mode.
+Author: Mos
+Section: IOS11
+Depends: mobilesubstrate
+Maintainer: QM <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.bytafonttm_3.6_iphoneos-arm.deb
+Size: 8918
+MD5sum: cd902e8ed4bb221404feff4c19885a5c
+
+Package: com.tqm-mos.cameramode10
+Version: 2.0.4
+Section: 10 iOS
+Maintainer: QM  <devmos388373@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Name: Camera Mode 10
+Author: Mos  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.cameramode10_2.0.4_iphoneos-arm.deb
+Size: 5042
+MD5sum: ebd6903c356c4cc27500901cc4b10630
+
+Package: com.tqm-mos.cameratweak3
+Name: CameraTweak 3 (iOS 8)
+Version: 1.3
+Architecture: iphoneos-arm
+Description: powerful enhancements to Camera app
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Maintainer: QM  <devmos388373@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader (>= 2.2.2)
+Icon: file:///Library/Application%20Support/CameraTweak3/TweakIcon/com.samball.cameratweak_100x100.png
+Filename: ./debs/com.tqm-mos.cameratweak3_1.3_iphoneos-arm.deb
+Size: 3636646
+MD5sum: a9bb1e6b8fa87acab7f6f292cfeafbfe
+
+Package: com.tqm-mos.cameratweak4
+Name: CameraTweak 4 (iOS 10/9)
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: Turn your stock Camera app into a professional one!
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader (>= 2.2.2)
+Conflicts: org.thebigboss.cameratweak2, com.repo.xarold.com.cameratweak2, org.thebigboss.cameratweak3, com.repo.xarold.com.cameratweak3
+Icon: file:///Library/PreferenceBundles/CT4_Prefs.bundle/CameraTweakIcon@2x.png
+Maintainer: QM  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.cameratweak4_1.1.2_iphoneos-arm.deb
+Size: 925100
+MD5sum: 76160bf38d005b0f3229ce2fb9e28b76
+
+Package: com.tqm-mos.confero2
+Name: Confero 2
+Version: 1.3
+Architecture: iphoneos-arm
+Description: An awesome way to control notifications
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), cc.tweak.libobjcipc, org.thebigboss.libstatus9
+Conflicts: com.jontelang.boover, org.thebigboss.confero, com.repo.xarold.com.confero
+Icon: file:///Library/PreferenceBundles/Confero2Settings.bundle/Confero2SettingsIcon@2x.png
+Maintainer: QM  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.confero2_1.3_iphoneos-arm.deb
+Size: 1029936
+MD5sum: a7ed4a6fa6c8f76f39a9ce00ec05469b
+
+Package: com.tqm-mos.fluidenabler
+Version: 1.0
+Section: IOS11
+Name: FluidEnabler
+Maintainer: QM  <devmos388373@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Mos  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.fluidenabler_1.0_iphoneos-arm.deb
+Size: 7,206
+MD5sum: 4646fd586d2452e0d85a24df48fd72f4
+
+Package: com.tqm-mos.dateinstatusbar
+Name: Date In Statusbar
+Version: 0.9.1-2
+Architecture: iphoneos-arm
+Description: Adds current date to statusbar
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+Maintainer: QM <devmos388373@gmail.com>
+Depends: mobilesubstrate, firmware(>=8.0)
+Installed-Size: 136
+Filename: ./debs/com.tqm-mos.dateinstatusbar_0.9.1-2_iphoneos-arm.deb
+Size: 4886
+MD5sum: fe070e838b5fae8a5e33cbefdefefeaf
+
+Package: com.tqm-mos.flux
+Priority: standard
+Section: Tweaks
+Description: warms colors at night to match indoor lighting
+Name: f.lux
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), firmware (<< 11), preferenceloader
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
+Version: 0.9988
+Filename: ./debs/com.tqm-mos.flux_0.9988_iphoneos-arm.deb
+Size: 92702
+MD5sum: 7c98e804a83464c6d1172c045729f53b
+
+Package: com.tqm-mos.fugap
+Name: FUGap
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: Use TouchID as home button!
+Author: Mos  <devmos388373@gmail.com>
+Section: IOS11
+Maintainer: QM  <devmos388373@gmail.com>
+Depends: mobilesubstrate 
+Filename: ./debs/com.tqm-mos.fugap_1.1.2_iphoneos-arm.deb
+Size: 86322
+MD5sum: 6c6315c652d33d63781efb3d4d38ec6c
+
+Package: com.tqm-mos.homebuttonplus
+Name: HomeButtonPlus Crack
+Version: 1.2.1-1
+Architecture: iphoneos-arm
+Description: Get more out of your home button + TouchID sensor.
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: com.macciti.lockplus, com.repo.xarold.com.lockplus, com.macciti.lockpluspro
+Maintainer: QM  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.homebuttonplus_1.2.1-1_iphoneos-arm.deb
+Size: 6553724
+MD5sum: a5ccdbb940823b7f775d519c489b5c9c
+
+Package: com.tqm-mos.homegesture
+Name: HomeGesture
+Version: 1.6-2+debug
+Architecture: iphoneos-arm
+Description: Enable iPhone X home gesture on other devices.
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+Maintainer: QM  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.homegesture_1.6-2+debug_iphoneos-arm.deb
+Size: 9548
+MD5sum: c56c6adc57b95ad0e932ecae3a254626
+
+Package: com.tqm-mos.horseshoe
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Name: Horseshoe
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Description: A better iOS 10 Control Center!
+Installed-Size: 947
+Maintainer: QM  <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: Tweaks
+dev: mos
+Tag: purpose::extension, compatible::ios10
+Filename: ./debs/com.tqm-mos.horseshoe_2.1.1-1_iphoneos-arm.deb
+Size: 357178
+MD5sum: 43e26281e1d80fee111fa3fc9df606e9
+
+Package: com.tqm-mos.jellyfish
+Name: Jellyfish
+Version: 0.1.9b
+Architecture: iphoneos-arm
+Description: A true-black dark mode.
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Maintainer: QM  <devmos388373@gmail.com>
+Filename: ./debs/com.tqm-mos.jellyfish_0.1.9b_iphoneos-arm.deb
+Size: 170188
+MD5sum: 2728597e29be5ab684287b9b819da623
+
+Name: NoSubstitute
+Package: com.tqm-mos.nosubstitute
+Priority: optional
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Disables substitute in apps.
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+dev: mos
+Section: IOS11
+Tag: purpose::extension, compatible::ios11
+Installed-Size: 155
+Icon: file:///Library/PreferenceBundles/NoSubstitute.bundle/Card@2x.png
+Filename: ./debs/com.tqm-mos.nosubstitute_1.0-1_iphoneos-arm.deb
+Size: 11756
+MD5sum: 5540b2a65b89baae994fedc5cd6d7e05
+
+Package: com.tqm-mos.veexillum
+Name: Veexillum
+Version: 2.7
+Architecture: iphoneos-arm
+Description: True Simplicity
+Maintainer: QM <devmos388373@gmail.com>
+Author: Mos <devmos388373@gmail.com>
+Section: Themes
+Depends: 
+Filename: ./debs/com.tqm-mos.veexillum_2.7_iphoneos-arm.deb
+Size: 17799506
+MD5sum: 73292761a7e456380d9b559460cebc62
+
+Author: Mos  <devmos388373@gmail.com>
+Maintainer: QM  <devmos388373@gmail.com>
+Name: VideoHUD
+Package: com.tqm-mos.videohud
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Section: IOS11
+Installed-Size: 124
+Version: 2.3
+Architecture: iphoneos-arm
+Description: iOS 11 video player HUD used systemwide!
+dev: mos
+Tag: purpose::extension, compatible::ios11
+Filename: ./debs/com.tqm-mos.videohud_2.3_iphoneos-arm.deb
+Size: 19466
+MD5sum: 7779c96956a17db3a103fb7ef57de08b
+
+Package: com.tqm-mos.virtualhome
+Name: VirtualHome
+Version: 2.0-1
+Architecture: iphoneos-arm
+Description: Use TouchID as home button!
+Author: Mos  <devmos388373@gmail.com>
+Section: Tweaks
+Maintainer: QM  <devmos388373@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 8.0)
+Conflicts: com.w00tylab.virtualhome
+Icon: file:///Library/PreferenceBundles/VirtualHome.bundle/virtualhome@2x.png
+Filename: ./debs/com.tqm-mos.virtualhome_2.0-1_iphoneos-arm.deb
+Size: 109930
+MD5sum: ea16740b1497da8d82eebb4954273f37
+
+Package: com.yourepo.tqm-minh.whitepro
+Name: WhitePro
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bring the experience of iphone to your iDevice.iPhone M_Os to your iDevice.
+Author: Mos <anhminh311105@gmail.com>
+Section: Themes
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.whitepro_1.0_iphoneos-arm.deb
+Size: 1204732
+MD5sum: 0b21cc1ef44174a01b4e67ef62eca412
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
